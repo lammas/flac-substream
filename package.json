@@ -1,0 +1,28 @@
+{
+  "name": "flac-substream",
+  "version": "1.0.0",
+  "description": "Node.js module for streaming subsections of FLAC files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/tests | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lammas/flac-substream.git"
+  },
+  "keywords": [
+    "flac",
+    "stream"
+  ],
+  "author": "lammas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lammas/flac-substream/issues"
+  },
+  "homepage": "https://github.com/lammas/flac-substream#readme",
+  "devDependencies": {
+    "flac-seektable": "^0.1.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  }
+}
