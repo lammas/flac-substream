@@ -38,4 +38,4 @@ jspm_packages
 
 
 # test files
-.flac
+*.flac
