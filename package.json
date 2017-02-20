@@ -1,7 +1,7 @@
 {
   "name": "flac-substream",
-  "version": "1.0.0",
-  "description": "Node.js module for streaming subsections of FLAC files",
+  "version": "0.1.0",
+  "description": "NodeJS module for streaming subsections of FLAC files",
   "main": "index.js",
   "scripts": {
     "test": "node test/tests | tap-spec"
