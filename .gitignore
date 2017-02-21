@@ -39,3 +39,4 @@ jspm_packages
 
 # test files
 *.flac
+!test/nyanya.flac
