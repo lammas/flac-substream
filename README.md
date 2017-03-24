@@ -42,13 +42,7 @@ const END_SECONDS = 20;
 
 var reader = fs.createReadStream(FLAC_IN);
 reader.pipe(new seektable(function(data) {
-	t.ok(data, 'Got seek data');
 	var output = fs.createWriteStream(FLAC_OUT, { flags: 'w' });
-	output.on('finish', () => {
-		t.pass('Write stream finished');
-		t.end();
-	});
-
 	substream(output, data, START_SECONDS, END_SECONDS, function(start, end) {
 		var stream = fs.createReadStream(
 			FLAC_IN,
