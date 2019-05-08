@@ -33,7 +33,7 @@ test('Plain file random access', function(t) {
 	const FLAC_IN = 'test/nyanya.flac';
 	const FLAC_OUT = 'test/out.flac';
 	const START_SECONDS = 2;
-	const END_SECONDS = 5;
+	const END_SECONDS = 4;
 
 	t.plan(2);
 
