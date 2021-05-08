@@ -22,11 +22,11 @@
   "homepage": "https://github.com/lammas/flac-substream#readme",
   "devDependencies": {
     "dev-null": "^0.1.1",
-    "flac-seektable": "^0.1.7",
     "tap-spec": "^5.0.0",
     "tape": "^4.6.2"
   },
   "dependencies": {
-    "bin-format": "^1.2.2"
+    "bin-format": "^1.4.1",
+    "flac-seektable": "^0.2.0"
   }
 }
