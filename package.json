@@ -23,10 +23,11 @@
   "devDependencies": {
     "dev-null": "^0.1.1",
     "tap-spec": "^5.0.0",
-    "tape": "^4.6.2"
+    "tape": "^4.6.2",
+    "trim": ">=0.0.3"
   },
   "dependencies": {
     "bin-format": "^1.4.1",
-    "flac-seektable": "^0.2.0"
+    "flac-seektable": "^0.2.1"
   }
 }
