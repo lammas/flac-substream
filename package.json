@@ -24,7 +24,8 @@
     "dev-null": "^0.1.1",
     "tap-spec": "^5.0.0",
     "tape": "^4.6.2",
-    "trim": ">=0.0.3"
+    "trim": ">=0.0.3",
+    "path-parse": ">=1.0.7"
   },
   "dependencies": {
     "bin-format": "^1.4.1",
